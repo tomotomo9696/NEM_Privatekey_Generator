@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(270deg, #fabe00, #34b7af, #86c0e9);
+    margin:0;
+    padding:0;
+}
+h1{
+    margin:0;
+    padding:10px 0px;
+}
+.seedpoint {
+    /*点の部分。*/
+    width: 6px;
+    height: 6px;
+    display: block;
+    border-radius: 3px;
+    background-color: #009900;
+    position: absolute;
+    z-index: 10;
+}
+#contents{
+    width: calc(100% - 40px);
+    margin:0px 20px;
+}
+img{
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-user-drag: none;
+user-drag: none;
+}
+.addbox{
+position:absolute;
+top:200px;
+font-size:30px;
+width:512px;
+height:250px;
+line-height:50px;
+text-align:center;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.privkeybox{
+position:absolute;
+top:128px;
+left:1024px;
+font-size:30px;
+width:512px;
+height:250px;
+line-height:64px;
+letter-spacing:5px;
+text-align:center;
+color:red;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
